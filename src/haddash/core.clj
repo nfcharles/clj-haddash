@@ -32,8 +32,3 @@
       (spit file (visualize conf n scaler))))
   ([conf file n]
     (visualize->file conf file n 1)))
-
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))

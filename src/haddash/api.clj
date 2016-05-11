@@ -129,7 +129,7 @@
 
 (defn sort-key [job-id]
   ;; Returns sort key for chornological hadoop job sorting
-  (nth (re-find #"_(\d+)$" job-id) 1))
+  (read-string (nth (re-find #"_(\d+)$" job-id) 1)))
 
 (defn process [conf id]
   ;; Returns info for hadoop job with id

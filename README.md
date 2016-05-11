@@ -1,10 +1,16 @@
 # clj-haddash
 
-Lightweight hadoop dashboard.  Prints ascii visualization of last n jobs run(ning) of hadoop cluster.
+Experimental lightweight hadoop dashboard.  Prints ascii visualization of last n jobs run(ning) of hadoop cluster. 0.20.203
+
+#### Supported Hadoop Versions
+| Version  |
+|----------|
+| 0.20.203 |
+
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Clone repo
 
 ## Usage
 
@@ -48,10 +54,10 @@ job_201603311739_9995   (8 mes):                                                
 
 ### Bugs
 
-...
+Maybe
 
 ### TODO:
- - Report job metrics
+ - Report job metrics (mappers, reducers, ...)
  - Enhance visualization
 
 
